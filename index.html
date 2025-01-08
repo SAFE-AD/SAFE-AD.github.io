@@ -24,8 +24,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>SAFE-AD: Systematic, Adaptive, Forward-Thinking and Efficient Autonomous Driving Empowered by Long Chain of Thought Decision Reasoning</title>
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -69,10 +69,10 @@
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
+                  <!-- <div class="column has-text-centered"> -->
+                    <!-- <div class="publication-links"> -->
                          <!-- Arxiv PDF link -->
-                      <span class="link-block">
+                      <!-- <span class="link-block">
                         <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
@@ -80,18 +80,18 @@
                         </span>
                         <span>Paper</span>
                       </a>
-                    </span>
+                    </span> -->
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
                       <span>Supplementary</span>
-                    </a>
-                  </span>
+                    </a> -->
+                  <!-- </span> -->
 
                   <!-- Github link -->
                   <span class="link-block">
@@ -122,24 +122,6 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -148,7 +130,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            The integration of large language models (LLMs) into autonomous driving systems has introduced new opportunities but faces challenges such as limited reasoning capabilities and adaptability in complex scenarios. Traditional single-path reasoning way risks constraining the model's reasoning flexibility. To overcome these limitations, we propose SAFE-AD, a novel framework that incorporates long chain-of-thought reasoning to enhance decision-making and address the challenges of long-tail scenarios. SAFE-AD features four key components: an Environmental Encoder that captures and processes critical environmental information, a Tree Construction Model that systematically explores potential actions, a Process Reward Model designed to evaluate and prioritize decisions based on human-like driving preferences, and a Memory Module that enables the system to learn from past experiences and adapt to new environments. Experimental results in diverse and complex driving scenarios demonstrate that SAFE-AD significantly outperforms existing knowledge-driven and reinforcement learning-based methods, achieving superior driving performance.
           </p>
         </div>
       </div>
@@ -156,6 +138,22 @@
   </div>
 </section>
 <!-- End paper abstract -->
+
+
+<!-- Teaser image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+        <!-- Your video here -->
+      <h2 class="title is-3">Framework</h2>
+      <img src="static/images/st_version1_crp.jpg" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Architecture of SAFE-AD, which contains Environmental Encoder, Tree Construction Model, Process Reward Model and Memory Module. 
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
 
 
 <!-- Image carousel -->
