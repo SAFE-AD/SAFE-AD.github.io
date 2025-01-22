@@ -1,0 +1,49 @@
+/* 使整个页面的body和html元素占满屏幕，避免默认的外边距 */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 使用flexbox来居中内容 */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+/* 视频容器，保持每个视频两行布局 */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* 控制每行之间的垂直间距 */
+    justify-content: center;
+    align-items: center;
+}
+
+/* 每一行的视频 */
+.video-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* 控制每个视频之间的水平间距 */
+}
+
+/* 每个视频项的样式 */
+.video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 设置视频与描述之间的间距 */
+video {
+    margin-bottom: 10px;
+}
+
+/* 描述文字的样式 */
+p {
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+}
